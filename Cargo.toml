@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/engine", "crates/cangjie-sys", "crates/cangjie", "crates/chewing-sys", "crates/chewing", "crates/rime-sys", "crates/rime", "crates/pinyin-sys", "crates/pinyin", "crates/config", "settings"]
+members = ["crates/engine", "crates/cangjie-sys", "crates/cangjie", "crates/chewing-sys", "crates/chewing", "crates/rime-sys", "crates/rime", "crates/pinyin-sys", "crates/pinyin", "crates/config", "settings", "tools/vktap", "tools/improbe"]
 
 [workspace.dependencies]
 # Newest libcosmic revision that still builds with rustc 1.91, the latest toolchain
